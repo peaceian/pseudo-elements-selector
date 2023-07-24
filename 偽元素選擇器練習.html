@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:nth-of-type,:nth-child練習</title>
+    <style>
+        body {width: 1200px;margin: 0 auto;background-color: whitesmoke ;}
+        p:nth-of-type(2n+1) {background-color: lightcoral;}
+        p:nth-child(3n+1) {background-color: blueviolet;} /*後面的會覆蓋前面的*/
+        ul li::marker {content: "\1F601";}
+        ol li::marker {color: #dd5805; font-size: 20px;}
+        li {list-style-type:lower-greek ;list-style-image:radial-gradient(pink,white);padding: 10px;}
+
+
+
+
+
+        div {width: 230px;border: 5px solid transparent;
+            border-image: url(pattern2.png) 10 round;box-sizing:border-box;}
+        div {box-shadow: 3px 3px black,6px 6px gray, 9px 9px lightgrey;}
+
+
+
+
+
+        /*div.text {width: 200px;border: 27px solid transparent ;padding: 10px;
+            -webkit-border-image-source: url(C:\Users\ian\web\Large_Turquoise_Transparent_Frame.png);
+            border-image-source:url(C:\Users\ian\web\Large_Turquoise_Transparent_Frame.png);
+            border-image-slice: 50;
+            border-image-width:initial;
+            border-image-outset: initial;
+            border-image-repeat: round;}*/
+
+
+
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    <h1>標題</h1>
+    <ul>
+        <li>第一行</li>
+        <li>第二行</li>
+        <li>第三行</li>
+    </ul>
+    <ol>
+        <li>第四行</li>
+        <li>第五行</li>
+        <li>第六行</li>
+        <li>第七行</li>
+    </ol>
+    <h1>標題</h1>
+    <hr>
+    <p>第一行</p>
+    <hr>
+    <p>第二行</p>
+    <hr>
+    <p>第三行</p>
+    <hr>
+    <p>第四行</p>
+    <hr>
+    <p>第五行</p>
+    <hr>
+    <p>第六行</p>
+    <hr>
+    <p>第七行</p>
+
+    
+</body>
+</html>
